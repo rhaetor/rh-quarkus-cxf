@@ -241,7 +241,7 @@ Unless stated otherwise, the support is available via `io.quarkiverse.cxf:quarku
 | Supported
 
 | `@org.apache.cxf.annotations.FastInfoset`
-| Supported via `com.sun.xml.fastinfoset:FastInfoset` dependency
+| Via `com.sun.xml.fastinfoset:FastInfoset` dependency. Allows CXF endpoints and clients to exchange binary messages encoded in FastInfoset format. This use case only has community support.
 
 | `@org.apache.cxf.annotations.EndpointProperty`
 | Supported
