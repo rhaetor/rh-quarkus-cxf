@@ -1,4 +1,4 @@
-[[ug_auth]]
+ [[id='ug_auth']]
 = Authentication and authorization
 
 [NOTE]

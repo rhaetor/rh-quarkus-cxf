@@ -1,4 +1,4 @@
-[[ug_sap-pauloads-with-jaxb]]
+ [[id='ug_sap-payloads-with-jaxb']]
 = Complex SOAP payloads with JAXB
 
 Our introductory guides for Quarkus xref:user-guide/first-soap-client.adoc[SOAP client]

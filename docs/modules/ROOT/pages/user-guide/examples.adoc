@@ -1,4 +1,4 @@
-[[ug_examples]]
+ [[id='ug_examples']]
 = Examples
 
 The https://github.com/quarkiverse/quarkus-cxf/tree/main/integration-tests[`integration-tests` folder] of the codebase provides various examples

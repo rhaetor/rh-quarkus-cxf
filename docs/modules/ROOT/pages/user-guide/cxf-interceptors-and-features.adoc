@@ -1,4 +1,4 @@
-[[ug_interceptors-and-features]]
+ [[id='ug_interceptors-and-features']]
 = CXF Interceptors and Features
 
 https://cxf.apache.org/docs/interceptors.html[CXF interceptors] and https://cxf.apache.org/docs/featureslist.html[CXF features] can be added to both your client or server using either annotations or `application.properties` configurations.
@@ -38,7 +38,9 @@ quarkus.cxf.endpoint."/greeting-service".out-fault-interceptors=org.acme.Test1In
 [NOTE]
 .Class loading
 ====
-Both feature and interceptor classes are loaded via CDI first..
+Both feature and interceptor classes are loaded via CDI first.
+They can be referenced by fully a qualified class name
+or by a xref:../user-guide/configuration.adoc#beanRefs[bean name].
 
 If no CDI beans are available, the constructor without parameters will be invoked to instantiate each class.
 ====

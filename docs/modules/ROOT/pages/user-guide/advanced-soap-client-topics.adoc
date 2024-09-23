@@ -1,4 +1,4 @@
-[[ug_advanced-soap-client-topics]]
+ [[id='ug_advanced-soap-client-topics']]
 = Advanced SOAP client topics
 
 == `client-endpoint-url` defaults

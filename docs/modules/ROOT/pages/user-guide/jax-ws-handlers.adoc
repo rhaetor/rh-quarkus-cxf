@@ -1,4 +1,4 @@
-[[ug_jax-ws-handlers]]
+ [[id='ug_jax-ws-handlers']]
 = JAX-WS Handlers
 
 As an alternative to the `@HandlerChain` annotation,

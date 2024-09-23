@@ -1,4 +1,4 @@
-[[ug_common-problems-troubleshooting]]
+ [[id='ug_common-problems-troubleshooting']]
 = Common problems and troubleshooting
 
 Some issues may appear during the development, testing, and native image building process of your `quarkus-cxf` project;
