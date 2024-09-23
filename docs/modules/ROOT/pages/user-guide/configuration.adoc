@@ -1,4 +1,4 @@
- [[id='ug_configuration']]
+ [id='ug_configuration']
 = Configuration
 
 {quarkus-cxf-project-name} exposes a large number of configuration options.

@@ -1,4 +1,4 @@
- [[id='ug_payload-logging']]
+ [id='ug_payload-logging']
 = Logging
 
 Refer to Quarkus https://quarkus.io/guides/logging[Logging guide] for basic information about logging on Quarkus, such as

@@ -1,4 +1,4 @@
- [[id='ug_user-guide']]
+ [id='ug_user-guide']
 = User guide
 
 This User guide explains typical use cases of {quarkus-cxf-project-name}.

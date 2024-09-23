@@ -1,4 +1,4 @@
- [[id='ug_first-soap-web-service']]
+ [id='ug_first-soap-web-service']
 = Your first SOAP Web service on Quarkus
 
 In this guide we explain how to create a Quarkus application exposing a simple SOAP Web service.

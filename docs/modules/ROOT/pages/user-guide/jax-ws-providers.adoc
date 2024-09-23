@@ -1,4 +1,4 @@
- [[id='ug_jax-ws-providers']]
+ [id='ug_jax-ws-providers']
 = JAX-WS Providers
 
 https://cxf.apache.org/docs/provider-services.html[JAX-WS Providers] are fully supported, and can be implemented as shown below.

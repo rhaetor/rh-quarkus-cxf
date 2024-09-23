@@ -1,4 +1,4 @@
- [[id='ug_create-new-project']]
+ [id='ug_create-new-project']
 = Create a new project
 
 This guide explains how to set up a new project for a Quarkus application hosting a CXF client or server or both.
