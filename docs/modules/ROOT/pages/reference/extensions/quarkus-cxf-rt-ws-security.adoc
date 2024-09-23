@@ -993,7 +993,7 @@ tests] yet.
 This value is only taken into account if the current security policy has set `CustomAlgorithmSuite` as an
 `AlgorithmSuite`, for instance
 
-[[custom-algorithm-suite-example]]
+[[digest-client-custom-algorithm-suite-example]]
 [source,xml]
 ----
 <wsp:Policy wsu:Id="SecurityServiceEncryptThenSignPolicy"
@@ -2299,7 +2299,7 @@ tests] yet.
 This value is only taken into account if the current security policy has set `CustomAlgorithmSuite` as an
 `AlgorithmSuite`, for instance
 
-[[custom-algorithm-suite-example]]
+[[digest-endpoint-custom-algorithm-suite-example]]
 [source,xml]
 ----
 <wsp:Policy wsu:Id="SecurityServiceEncryptThenSignPolicy"
