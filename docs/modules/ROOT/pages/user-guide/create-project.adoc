@@ -1,8 +1,9 @@
+[[ug_create-new-project]]
 = Create a new project
 
 This guide explains how to set up a new project for a Quarkus application hosting a CXF client or server or both.
 
-[[prerequisites-project]]
+[[ug_prerequisites-project]]
 == Prerequisites
 
 Read the https://quarkus.io/guides/getting-started#prerequisites[Prerequisites section] of Quarkus getting started guide.
@@ -15,7 +16,7 @@ In addition to that, you may need
 * If you are on Linux, a container runtime like `docker` is sufficient for the native mode too.
   Use `-Pnative -Dquarkus.native.container-build=true` instead of `-Pnative` if you choose this option.
 
-[[create-project]]
+[[ug_create-project]]
 == Create project
 
 New project skeletons can be generated using https://{link-quarkus-code-generator}/?e=io.quarkiverse.cxf%3Aquarkus-cxf&extension-search=origin:platform%20quarkus%20cxf[{link-quarkus-code-generator}].
@@ -27,7 +28,7 @@ image::code.quarkus.io.png[https://code.quarkus.io]
 * Click the blue `Generate your application` button to download a basic skeleton project.
 * Unpack the zip file and import the project the into your favorite IDE.
 
-[[dependency-management]]
+[[ug_dependency-management]]
 == Dependency management
 
 {quarkus-cxf-project-name} is a part of Quarkus Platform since Quarkus Platform version 3.1.0.Final.

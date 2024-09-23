@@ -1,3 +1,4 @@
+[[ug_advanced-soap-client-topics]]
 = Advanced SOAP client topics
 
 == `client-endpoint-url` defaults
@@ -32,7 +33,7 @@ quarkus.cxf.client.anotherCalculator.client-endpoint-url = https://acme.com/ws/W
 quarkus.cxf.client.anotherCalculator.service-interface = org.jboss.eap.quickstarts.wscalculator.calculator.CalculatorService
 ----
 
-[[code-config]]
+[[ug_code-config]]
 == Advanced Client Configurations
 
 To globally configure all clients in your application, you can use the example snippet below to configure the
@@ -59,7 +60,7 @@ void onStart(@Observes StartupEvent ev) {
 }
 ----
 
-[[pure-client]]
+[[ug_pure-client]]
 == Pure client applications
 
 Quarkus batch (e.g. periodically scheduled), or command line applications, may do without an HTTP server.
@@ -70,7 +71,7 @@ Use the property below to prevent launching the HTTP server at startup:
 quarkus.http.host-enabled = false
 ----
 
-[[resource-leaks]]
+[[ug_resource-leaks]]
 == Prevent resource leaks
 
 CXF client proxies implement `java.io.Closeable`.

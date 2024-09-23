@@ -1,3 +1,4 @@
+[[ug_ssl]]
 = SSL, TLS and HTTPS
 
 This chapter documents various use cases related to SSL, TLS and HTTPS.
@@ -58,7 +59,7 @@ include::example$ws-security-policy/application.properties[tag=server-key-store]
 
 <1> The referenced `localhost.jks` file has to be available in `src/main/resources` directory.
 
-[[mtls]]
+[[ug_mtls]]
 == Mutual TLS (mTLS) authentication
 
 So far, we have explained the simple or single-sided case

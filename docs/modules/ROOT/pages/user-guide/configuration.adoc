@@ -1,3 +1,4 @@
+[[ug_configuration]]
 = Configuration
 
 {quarkus-cxf-project-name} exposes a large number of configuration options.
@@ -6,7 +7,7 @@ Each extension documents its options at the bottom of its xref:reference/index.a
 The configuration options can be set in `application.properties` file or via environment variables - see
 https://quarkus.io/guides/config-reference[Quarkus configuration reference] for details.
 
-[[beanRefs]]
+[[ug_beanRefs]]
 == Bean references
 
 Several configuration options of {quarkus-cxf-project-name} allow referring to beans present in Quarkus CDI container.

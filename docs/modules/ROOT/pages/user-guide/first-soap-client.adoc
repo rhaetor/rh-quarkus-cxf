@@ -1,3 +1,4 @@
+[[ug_first-soap-client]]
 = Your first SOAP Client on Quarkus
 
 In this guide we explain how to create a simple Quarkus application acting as a client of a remote Web service.
@@ -104,7 +105,7 @@ There are several ways to get them:
 
 The last option tends to be the easiest and most flexible for client applications.
 
-[[wsdl2java]]
+[[ug_wsdl2java]]
 
 [TIP]
 ====

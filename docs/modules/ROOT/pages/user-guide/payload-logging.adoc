@@ -1,3 +1,4 @@
+[[ug_payload-logging]]
 = Logging
 
 Refer to Quarkus https://quarkus.io/guides/logging[Logging guide] for basic information about logging on Quarkus, such as
@@ -50,7 +51,7 @@ It can be done either by passing a system property on the command line (e.g. `-D
 or by setting an environment variable (e.g. `export QUARKUS_CXF_LOGGING_ENABLED=true`).
 ====
 
-[[per-client-or-service-endpoind-payload-logging]]
+[[ug_per-client-or-service-endpoind-payload-logging]]
 === Per client and per service endpoint settings
 
 Since {quarkus-cxf-project-name} 2.5.0, the `LoggingFeature` can be configured and attached to a client or a service

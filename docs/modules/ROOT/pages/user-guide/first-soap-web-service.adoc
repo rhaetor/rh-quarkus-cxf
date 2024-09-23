@@ -1,4 +1,4 @@
-[[first-steps]]
+[[ug_first-steps]]
 = Your first SOAP Web service on Quarkus
 
 In this guide we explain how to create a Quarkus application exposing a simple SOAP Web service.
@@ -144,7 +144,7 @@ $ curl -v -X POST -H "Content-Type: text/xml;charset=UTF-8" \
 
 You can see the expected `<return>Hello World!</return>` in the SOAP response.
 
-[[logging-feature]]
+[[ug_logging-feature]]
 == Add the logging feature while dev mode is running
 
 Sometimes it may come in handy to be able to inspect the SOAP messages received or sent by the server or client.
