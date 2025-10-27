@@ -785,7 +785,7 @@ respectively.
 *Since Quarkus CXF*: 2.6.0
 
 .<| [[quarkus-cxf_quarkus-cxf-retransmit-cache-threshold]]`link:#quarkus-cxf_quarkus-cxf-retransmit-cache-threshold[quarkus.cxf.retransmit-cache.threshold]`
-.<| `MemorySize` link:#memory-size-note-anchor-quarkus-cxf[icon:question-circle[title=More information about the MemorySize format]]
+.<| `MemorySize` icon:question-circle[link=#memory-size-note-anchor-quarkus-cxf, title=More information about the MemorySize format]
 .<| `128K`
 
 3+a|If the request retransmission is active for the given client and if request body is larger than this threshold,
@@ -801,7 +801,7 @@ See also:
 *Since Quarkus CXF*: 3.18.0
 
 .<| [[quarkus-cxf_quarkus-cxf-retransmit-cache-max-size]]`link:#quarkus-cxf_quarkus-cxf-retransmit-cache-max-size[quarkus.cxf.retransmit-cache.max-size]`
-.<| `MemorySize` link:#memory-size-note-anchor-quarkus-cxf[icon:question-circle[title=More information about the MemorySize format]]
+.<| `MemorySize` icon:question-circle[link=#memory-size-note-anchor-quarkus-cxf, title=More information about the MemorySize format]
 .<| 
 
 3+a|The maximum size of a request body allowed to be cached on disk when retransmitting.
@@ -839,7 +839,7 @@ See also:
 *Since Quarkus CXF*: 3.18.0
 
 .<| [[quarkus-cxf_quarkus-cxf-retransmit-cache-gc-delay]]`link:#quarkus-cxf_quarkus-cxf-retransmit-cache-gc-delay[quarkus.cxf.retransmit-cache.gc-delay]`
-.<| link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[`Duration`] link:#duration-note-anchor-quarkus-cxf[icon:question-circle[title=More information about the Duration format]]
+.<| link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[`Duration`] icon:question-circle[link=#duration-note-anchor-quarkus-cxf, title=More information about the Duration format]
 .<| `30M`
 
 3+a|A delay for periodic cleaning of stale temporary files in the
@@ -2339,7 +2339,7 @@ enforced unless it is enabled by other means, such as `@org.apache.cxf.annotatio
 *Since Quarkus CXF*: 3.25.0
 
 .<| [[quarkus-cxf_quarkus-cxf-client-client-name-vertx-connection-pool-cleaner-period]]`link:#quarkus-cxf_quarkus-cxf-client-client-name-vertx-connection-pool-cleaner-period[quarkus.cxf.client."client-name".vertx.connection-pool.cleaner-period]`
-.<| link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[`Duration`] link:#duration-note-anchor-quarkus-cxf[icon:question-circle[title=More information about the Duration format]]
+.<| link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[`Duration`] icon:question-circle[link=#duration-note-anchor-quarkus-cxf, title=More information about the Duration format]
 .<| `1S`
 
 3+a|The connection pool cleaner period.
@@ -2371,8 +2371,8 @@ If the value is negative then the queue is unbounded.
 *Since Quarkus CXF*: 3.25.0
 |===
 
-[NOTE]
 [id=duration-note-anchor-quarkus-cxf]
+[NOTE]
 .About the Duration format
 ====
 To write duration values, use the standard `java.time.Duration` format.
